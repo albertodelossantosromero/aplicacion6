@@ -1,9 +1,9 @@
 // JavaScript Document
 
-$(document).ready(function(e) {
-    document.addEventListener("deviceready",function(){
+$(document).ready(function (e){
+    document.addEventListener ("deviceready",function(){
 		
-		$('#beep').tap(function(){
+		$('#beep').tap(function (){
 			navigator.notification.beep (3);
 });//tap beep
 
